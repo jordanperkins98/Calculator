@@ -8,7 +8,34 @@
 </head>
 <body>
     <div class="outer-container">
-        
+        <div class="screen"></div>
+        <div class="buttons">
+    
+            <button class="btn g" onclick="clearScreen()">C</button>
+            <button class="btn g" onclick="deleteChar()">DEL</button>
+            <button class="btn g" onclick="insertChar('%')">%</button>
+            <button class="btn o" onclick="insertChar('/')">/</button>
+
+            <button class="btn b" onclick="insertChar('7')">7</button>
+            <button class="btn b " onclick="insertChar('8')">8</button>
+            <button class="btn b" onclick="insertChar('9')">9</button>
+            <button class="btn o" onclick="insertChar('*')">*</button>
+
+            <button class="btn b" onclick="insertChar('4')">4</button>
+            <button class="btn b" onclick="insertChar('5')">5</button>
+            <button class="btn b" onclick="insertChar('6')">6</button>
+            <button class="btn o" onclick="insertChar('-')">-</button>
+
+            <button class="btn b" onclick="insertChar('1')">1</button>
+            <button class="btn b" onclick="insertChar('2')">2</button>
+            <button class="btn b" onclick="insertChar('3')">3</button>
+            <button class="btn o" onclick="insertChar('+')">+</button>
+
+            <button class="btn-0 b" onclick="insertChar('0')">0</button>
+            <button class="btn b" onclick="insertChar('.')">.</button>
+            <button class="btn o" onclick="calculate()">=</button>
+
+        </div>
     </div>
 </body>
 </html>

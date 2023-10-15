@@ -11,6 +11,57 @@ html{
 .outer-container{
     background-color: #474747;
     width: 700px;
-    height: a500px;
+    height: 500px;
     border-radius: 3.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen{
+    background-color: #aaaaaa;
+    width: 95%;
+    height: 20%;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+    height: 70%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+button{
+    width: 160px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: none;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.btn-0{
+    flex-grow: 1;
+}
+
+.b{
+    background-color: #777777;
+    color: white;
+    
+}
+.o{
+    background-color: #ff9f00;
+    color: white;
+}
+
+.g{
+    background-color: #cacaca;
+    color: black;
 }

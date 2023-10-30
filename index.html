@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="outer-container">
-        <div class="screen"></div>
+        <div class="screen"><span class="screenText"></span></div>
         <div class="buttons">
     
             <button class="btn g" onclick="clearScreen()">C</button>
@@ -19,7 +20,7 @@
             <button class="btn b" onclick="insertChar('7')">7</button>
             <button class="btn b " onclick="insertChar('8')">8</button>
             <button class="btn b" onclick="insertChar('9')">9</button>
-            <button class="btn o" onclick="insertChar('*')">*</button>
+            <button class="btn o" onclick="insertChar('&times;')">&times;</button>
 
             <button class="btn b" onclick="insertChar('4')">4</button>
             <button class="btn b" onclick="insertChar('5')">5</button>
@@ -38,4 +39,5 @@
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>

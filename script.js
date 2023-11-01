@@ -1,6 +1,14 @@
 const Screen = document.querySelector('.screenText');
 
 const insertChar = (char) => {
+
+    let currentScreen = Screen.innerHTML.trimEnd().split(' ')
+
+    if (currentScreen.length === 3){
+        calculate();
+    }
+
+     
     if (char === '*') char = '\u00D7';
 
     if (char === '+' || char === '-' || char === '/' || char == '\u00D7') {
@@ -8,6 +16,7 @@ const insertChar = (char) => {
     } else {
         Screen.innerHTML += char;
     }
+    
 }
 
 

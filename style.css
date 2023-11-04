@@ -10,7 +10,7 @@ html{
 
 .outer-container{
     background-color: #474747;
-    width: 700px;
+    width: 560px;
     height: 500px;
     border-radius: 3.5%;
     display: flex;
@@ -28,7 +28,7 @@ button:active {
 .screen{
     background-color: #aaaaaa;
     display: flex;
-    width: 95%;
+    width: 90%;
     height: 20%;
     border-radius: 15px;
     align-self: center;
@@ -53,7 +53,7 @@ button:active {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 95%;
+    width: 90%;
     height: 70%;
     margin-top: 10px;
     flex-wrap: wrap;
@@ -61,7 +61,7 @@ button:active {
 }
 
 button{
-    width: 160px;
+    width: 120px;
     border-radius: 50px;
     text-decoration: none;
     border: none;

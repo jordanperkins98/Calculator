@@ -4,7 +4,7 @@ const insertChar = (char) => {
 
     let currentScreen = Screen.innerHTML.trimEnd().split(' ')
 
-    if (currentScreen.length === 3){
+    if (currentScreen.length === 3 && typeof char != 'number'){
         calculate();
     }
 
